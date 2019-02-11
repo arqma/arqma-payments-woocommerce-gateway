@@ -14,7 +14,7 @@ class Arqma_Gateway extends WC_Payment_Gateway
     private static $_title = 'Arqma Payments';
     private static $_method_title = 'Arqma Payments';
     private static $_method_description = 'Arqma Payments Gateway Plug-in for WooCommerce.';
-    private static $_errors = [];
+    private static $_errors = array();
 
     private static $discount = false;
     private static $valid_time = null;
@@ -468,10 +468,7 @@ class Arqma_Gateway extends WC_Payment_Gateway
                 $heights[] = $tx->height;
             }
 
-            usort($txs, function($a, $b) {
-                if($a['height'] == 0) return -1;
-                return $b['height'] - $a['height'];
-            });
+            
 
             if(count($heights) && !in_array(0, $heights)) {
                 $height = get_transient('arqma_gateway_network_height');
