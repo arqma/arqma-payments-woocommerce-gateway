@@ -3,7 +3,7 @@
  * - Using the 'QRCode for Javascript library'
  * - Fixed dataset of 'QRCode for Javascript library' for support full-spec.
  * - this library has no dependencies.
- * 
+ *
  * @author davidshimjs
  * @see <a href="http://www.d-project.com/" target="_blank">http://www.d-project.com/</a>
  * @see <a href="http://jeromeetienne.github.com/jquery-qrcode/" target="_blank">http://jeromeetienne.github.com/jquery-qrcode/</a>
@@ -21,7 +21,7 @@ var QRCode;
 	// Licensed under the MIT license:
 	//   http://www.opensource.org/licenses/mit-license.php
 	//
-	// The word "QR Code" is registered trademark of 
+	// The word "QR Code" is registered trademark of
 	// DENSO WAVE INCORPORATED
 	//   http://www.denso-wave.com/qrcode/faqpatent-e.html
 	//
@@ -146,32 +146,32 @@ var QRCode;
 	return new QRPolynomial(num,0).mod(e);}};function QRRSBlock(totalCount,dataCount){this.totalCount=totalCount;this.dataCount=dataCount;}
 	QRRSBlock.RS_BLOCK_TABLE=[[1,26,19],[1,26,16],[1,26,13],[1,26,9],[1,44,34],[1,44,28],[1,44,22],[1,44,16],[1,70,55],[1,70,44],[2,35,17],[2,35,13],[1,100,80],[2,50,32],[2,50,24],[4,25,9],[1,134,108],[2,67,43],[2,33,15,2,34,16],[2,33,11,2,34,12],[2,86,68],[4,43,27],[4,43,19],[4,43,15],[2,98,78],[4,49,31],[2,32,14,4,33,15],[4,39,13,1,40,14],[2,121,97],[2,60,38,2,61,39],[4,40,18,2,41,19],[4,40,14,2,41,15],[2,146,116],[3,58,36,2,59,37],[4,36,16,4,37,17],[4,36,12,4,37,13],[2,86,68,2,87,69],[4,69,43,1,70,44],[6,43,19,2,44,20],[6,43,15,2,44,16],[4,101,81],[1,80,50,4,81,51],[4,50,22,4,51,23],[3,36,12,8,37,13],[2,116,92,2,117,93],[6,58,36,2,59,37],[4,46,20,6,47,21],[7,42,14,4,43,15],[4,133,107],[8,59,37,1,60,38],[8,44,20,4,45,21],[12,33,11,4,34,12],[3,145,115,1,146,116],[4,64,40,5,65,41],[11,36,16,5,37,17],[11,36,12,5,37,13],[5,109,87,1,110,88],[5,65,41,5,66,42],[5,54,24,7,55,25],[11,36,12],[5,122,98,1,123,99],[7,73,45,3,74,46],[15,43,19,2,44,20],[3,45,15,13,46,16],[1,135,107,5,136,108],[10,74,46,1,75,47],[1,50,22,15,51,23],[2,42,14,17,43,15],[5,150,120,1,151,121],[9,69,43,4,70,44],[17,50,22,1,51,23],[2,42,14,19,43,15],[3,141,113,4,142,114],[3,70,44,11,71,45],[17,47,21,4,48,22],[9,39,13,16,40,14],[3,135,107,5,136,108],[3,67,41,13,68,42],[15,54,24,5,55,25],[15,43,15,10,44,16],[4,144,116,4,145,117],[17,68,42],[17,50,22,6,51,23],[19,46,16,6,47,17],[2,139,111,7,140,112],[17,74,46],[7,54,24,16,55,25],[34,37,13],[4,151,121,5,152,122],[4,75,47,14,76,48],[11,54,24,14,55,25],[16,45,15,14,46,16],[6,147,117,4,148,118],[6,73,45,14,74,46],[11,54,24,16,55,25],[30,46,16,2,47,17],[8,132,106,4,133,107],[8,75,47,13,76,48],[7,54,24,22,55,25],[22,45,15,13,46,16],[10,142,114,2,143,115],[19,74,46,4,75,47],[28,50,22,6,51,23],[33,46,16,4,47,17],[8,152,122,4,153,123],[22,73,45,3,74,46],[8,53,23,26,54,24],[12,45,15,28,46,16],[3,147,117,10,148,118],[3,73,45,23,74,46],[4,54,24,31,55,25],[11,45,15,31,46,16],[7,146,116,7,147,117],[21,73,45,7,74,46],[1,53,23,37,54,24],[19,45,15,26,46,16],[5,145,115,10,146,116],[19,75,47,10,76,48],[15,54,24,25,55,25],[23,45,15,25,46,16],[13,145,115,3,146,116],[2,74,46,29,75,47],[42,54,24,1,55,25],[23,45,15,28,46,16],[17,145,115],[10,74,46,23,75,47],[10,54,24,35,55,25],[19,45,15,35,46,16],[17,145,115,1,146,116],[14,74,46,21,75,47],[29,54,24,19,55,25],[11,45,15,46,46,16],[13,145,115,6,146,116],[14,74,46,23,75,47],[44,54,24,7,55,25],[59,46,16,1,47,17],[12,151,121,7,152,122],[12,75,47,26,76,48],[39,54,24,14,55,25],[22,45,15,41,46,16],[6,151,121,14,152,122],[6,75,47,34,76,48],[46,54,24,10,55,25],[2,45,15,64,46,16],[17,152,122,4,153,123],[29,74,46,14,75,47],[49,54,24,10,55,25],[24,45,15,46,46,16],[4,152,122,18,153,123],[13,74,46,32,75,47],[48,54,24,14,55,25],[42,45,15,32,46,16],[20,147,117,4,148,118],[40,75,47,7,76,48],[43,54,24,22,55,25],[10,45,15,67,46,16],[19,148,118,6,149,119],[18,75,47,31,76,48],[34,54,24,34,55,25],[20,45,15,61,46,16]];QRRSBlock.getRSBlocks=function(typeNumber,errorCorrectLevel){var rsBlock=QRRSBlock.getRsBlockTable(typeNumber,errorCorrectLevel);if(rsBlock==undefined){throw new Error("bad rs block @ typeNumber:"+typeNumber+"/errorCorrectLevel:"+errorCorrectLevel);}
 	var length=rsBlock.length/3;var list=[];for(var i=0;i<length;i++){var count=rsBlock[i*3+0];var totalCount=rsBlock[i*3+1];var dataCount=rsBlock[i*3+2];for(var j=0;j<count;j++){list.push(new QRRSBlock(totalCount,dataCount));}}
-	return list;};QRRSBlock.getRsBlockTable=function(typeNumber,errorCorrectLevel){switch(errorCorrectLevel){case QRErrorCorrectLevel.L:return QRRSBlock.RS_BLOCK_TABLE[(typeNumber-1)*4+0];case QRErrorCorrectLevel.M:return QRRSBlock.RS_BLOCK_TABLE[(typeNumber-1)*4+1];case QRErrorCorrectLevel.Q:return QRRSBlock.RS_BLOCK_TABLE[(typeNumber-1)*4+2];case QRErrorCorrectLevel.H:return QRRSBlock.RS_BLOCK_TABLE[(typeNumber-1)*4+3];default:return undefined;}};function QRBitBuffer(){this.buffer=[];this.length=0;}
+	return list;};QRRSBlock.getRsBlockTable=function(typeNumber,errorCorrectLevel){switch(errorCorrectLevel){case QRErrorCorrectLevel.L:return QRRSBlock.RS_BLOCK_TABLE[(typeNumber-1)*4+0];case QRErrorCorrectLevel.M:return QRRSBlock.RS_BLOCK_TABLE[(typeNumber-1)*4+1];case QRErrorCorrectLevel.Q:return QRRSBlock.RS_BLOCK_TABLE[(typeNumber-1)*4+2];case QRErrorCorrectLevel.M:return QRRSBlock.RS_BLOCK_TABLE[(typeNumber-1)*4+3];default:return undefined;}};function QRBitBuffer(){this.buffer=[];this.length=0;}
 	QRBitBuffer.prototype={get:function(index){var bufIndex=Math.floor(index/8);return((this.buffer[bufIndex]>>>(7-index%8))&1)==1;},put:function(num,length){for(var i=0;i<length;i++){this.putBit(((num>>>(length-i-1))&1)==1);}},getLengthInBits:function(){return this.length;},putBit:function(bit){var bufIndex=Math.floor(this.length/8);if(this.buffer.length<=bufIndex){this.buffer.push(0);}
 	if(bit){this.buffer[bufIndex]|=(0x80>>>(this.length%8));}
 	this.length++;}};var QRCodeLimitLength=[[17,14,11,7],[32,26,20,14],[53,42,32,24],[78,62,46,34],[106,84,60,44],[134,106,74,58],[154,122,86,64],[192,152,108,84],[230,180,130,98],[271,213,151,119],[321,251,177,137],[367,287,203,155],[425,331,241,177],[458,362,258,194],[520,412,292,220],[586,450,322,250],[644,504,364,280],[718,560,394,310],[792,624,442,338],[858,666,482,382],[929,711,509,403],[1003,779,565,439],[1091,857,611,461],[1171,911,661,511],[1273,997,715,535],[1367,1059,751,593],[1465,1125,805,625],[1528,1190,868,658],[1628,1264,908,698],[1732,1370,982,742],[1840,1452,1030,790],[1952,1538,1112,842],[2068,1628,1168,898],[2188,1722,1228,958],[2303,1809,1283,983],[2431,1911,1351,1051],[2563,1989,1423,1093],[2699,2099,1499,1139],[2809,2213,1579,1219],[2953,2331,1663,1273]];
-	
+
 	function _isSupportCanvas() {
 		return typeof CanvasRenderingContext2D != "undefined";
 	}
-	
+
 	// android 2.x doesn't support Data-URI spec
 	function _getAndroid() {
 		var android = false;
 		var sAgent = navigator.userAgent;
-		
+
 		if (/android/i.test(sAgent)) { // android
 			android = true;
 			var aMat = sAgent.toString().match(/android ([0-9]\.[0-9])/i);
-			
+
 			if (aMat && aMat[1]) {
 				android = parseFloat(aMat[1]);
 			}
 		}
-		
+
 		return android;
 	}
-	
+
 	var svgDrawer = (function() {
 
 		var Drawing = function (el, htOption) {
@@ -227,10 +227,10 @@ var QRCode;
 			this._el = el;
 			this._htOption = htOption;
 		};
-			
+
 		/**
 		 * Draw the QRCode
-		 * 
+		 *
 		 * @param {QRCode} oQRCode
 		 */
 		Drawing.prototype.draw = function (oQRCode) {
@@ -240,50 +240,50 @@ var QRCode;
 			var nWidth = Math.floor(_htOption.width / nCount);
 			var nHeight = Math.floor(_htOption.height / nCount);
 			var aHTML = ['<table style="border:0;border-collapse:collapse;">'];
-			
+
 			for (var row = 0; row < nCount; row++) {
 				aHTML.push('<tr>');
-				
+
 				for (var col = 0; col < nCount; col++) {
 					aHTML.push('<td style="border:0;border-collapse:collapse;padding:0;margin:0;width:' + nWidth + 'px;height:' + nHeight + 'px;background-color:' + (oQRCode.isDark(row, col) ? _htOption.colorDark : _htOption.colorLight) + ';"></td>');
 				}
-				
+
 				aHTML.push('</tr>');
 			}
-			
+
 			aHTML.push('</table>');
 			_el.innerHTML = aHTML.join('');
-			
+
 			// Fix the margin values as real size.
 			var elTable = _el.childNodes[0];
 			var nLeftMarginTable = (_htOption.width - elTable.offsetWidth) / 2;
 			var nTopMarginTable = (_htOption.height - elTable.offsetHeight) / 2;
-			
+
 			if (nLeftMarginTable > 0 && nTopMarginTable > 0) {
-				elTable.style.margin = nTopMarginTable + "px " + nLeftMarginTable + "px";	
+				elTable.style.margin = nTopMarginTable + "px " + nLeftMarginTable + "px";
 			}
 		};
-		
+
 		/**
 		 * Clear the QRCode
 		 */
 		Drawing.prototype.clear = function () {
 			this._el.innerHTML = '';
 		};
-		
+
 		return Drawing;
 	})() : (function () { // Drawing in Canvas
 		function _onMakeImage() {
 			this._elImage.src = this._elCanvas.toDataURL("image/png");
 			this._elImage.style.display = "block";
-			this._elCanvas.style.display = "none";			
+			this._elCanvas.style.display = "none";
 		}
-		
+
 		// Android 2.1 bug workaround
 		// http://code.google.com/p/android/issues/detail?id=5141
 		if (this._android && this._android <= 2.1) {
 	    	var factor = 1 / window.devicePixelRatio;
-	        var drawImage = CanvasRenderingContext2D.prototype.drawImage; 
+	        var drawImage = CanvasRenderingContext2D.prototype.drawImage;
 	    	CanvasRenderingContext2D.prototype.drawImage = function (image, sx, sy, sw, sh, dx, dy, dw, dh) {
 	    		if (("nodeName" in image) && /img/i.test(image.nodeName)) {
 		        	for (var i = arguments.length - 1; i >= 1; i--) {
@@ -295,14 +295,14 @@ var QRCode;
 	    			arguments[3] *= factor;
 	    			arguments[4] *= factor;
 	    		}
-	    		
-	        	drawImage.apply(this, arguments); 
+
+	        	drawImage.apply(this, arguments);
 	    	};
 		}
-		
+
 		/**
 		 * Check whether the user's browser supports Data URI or not
-		 * 
+		 *
 		 * @private
 		 * @param {Function} fSuccess Occurs if it supports Data URI
 		 * @param {Function} fFail Occurs if it doesn't support Data URI
@@ -341,18 +341,18 @@ var QRCode;
                 self._fFail.call(self);
             }
 		};
-		
+
 		/**
 		 * Drawing QRCode by using canvas
-		 * 
+		 *
 		 * @constructor
 		 * @param {HTMLElement} el
-		 * @param {Object} htOption QRCode Options 
+		 * @param {Object} htOption QRCode Options
 		 */
 		var Drawing = function (el, htOption) {
     		this._bIsPainted = false;
     		this._android = _getAndroid();
-		
+
 			this._htOption = htOption;
 			this._elCanvas = document.createElement("canvas");
 			this._elCanvas.width = htOption.width;
@@ -367,17 +367,17 @@ var QRCode;
 			this._el.appendChild(this._elImage);
 			this._bSupportDataURI = null;
 		};
-			
+
 		/**
 		 * Draw the QRCode
-		 * 
-		 * @param {QRCode} oQRCode 
+		 *
+		 * @param {QRCode} oQRCode
 		 */
 		Drawing.prototype.draw = function (oQRCode) {
             var _elImage = this._elImage;
             var _oContext = this._oContext;
             var _htOption = this._htOption;
-            
+
 			var nCount = oQRCode.getModuleCount();
 			var nWidth = _htOption.width / nCount;
 			var nHeight = _htOption.height / nCount;
@@ -386,7 +386,7 @@ var QRCode;
 
 			_elImage.style.display = "none";
 			this.clear();
-			
+
 			for (var row = 0; row < nCount; row++) {
 				for (var col = 0; col < nCount; col++) {
 					var bIsDark = oQRCode.isDark(row, col);
@@ -394,9 +394,9 @@ var QRCode;
 					var nTop = row * nHeight;
 					_oContext.strokeStyle = bIsDark ? _htOption.colorDark : _htOption.colorLight;
 					_oContext.lineWidth = 1;
-					_oContext.fillStyle = bIsDark ? _htOption.colorDark : _htOption.colorLight;					
+					_oContext.fillStyle = bIsDark ? _htOption.colorDark : _htOption.colorLight;
 					_oContext.fillRect(nLeft, nTop, nWidth, nHeight);
-					
+
 					// 안티 앨리어싱 방지 처리
 					_oContext.strokeRect(
 						Math.floor(nLeft) + 0.5,
@@ -404,7 +404,7 @@ var QRCode;
 						nRoundedWidth,
 						nRoundedHeight
 					);
-					
+
 					_oContext.strokeRect(
 						Math.ceil(nLeft) - 0.5,
 						Math.ceil(nTop) - 0.5,
@@ -413,10 +413,10 @@ var QRCode;
 					);
 				}
 			}
-			
+
 			this._bIsPainted = true;
 		};
-			
+
 		/**
 		 * Make the image from Canvas if the browser supports Data URI.
 		 */
@@ -425,16 +425,16 @@ var QRCode;
 				_safeSetDataURI.call(this, _onMakeImage);
 			}
 		};
-			
+
 		/**
 		 * Return whether the QRCode is painted or not
-		 * 
+		 *
 		 * @return {Boolean}
 		 */
 		Drawing.prototype.isPainted = function () {
 			return this._bIsPainted;
 		};
-		
+
 		/**
 		 * Clear the QRCode
 		 */
@@ -442,7 +442,7 @@ var QRCode;
 			this._oContext.clearRect(0, 0, this._elCanvas.width, this._elCanvas.height);
 			this._bIsPainted = false;
 		};
-		
+
 		/**
 		 * @private
 		 * @param {Number} nNumber
@@ -451,28 +451,28 @@ var QRCode;
 			if (!nNumber) {
 				return nNumber;
 			}
-			
+
 			return Math.floor(nNumber * 1000) / 1000;
 		};
-		
+
 		return Drawing;
 	})();
-	
+
 	/**
 	 * Get the type by string length
-	 * 
+	 *
 	 * @private
 	 * @param {String} sText
 	 * @param {Number} nCorrectLevel
 	 * @return {Number} type
 	 */
-	function _getTypeNumber(sText, nCorrectLevel) {			
+	function _getTypeNumber(sText, nCorrectLevel) {
 		var nType = 1;
 		var length = _getUTF8Length(sText);
-		
+
 		for (var i = 0, len = QRCodeLimitLength.length; i <= len; i++) {
 			var nLimit = 0;
-			
+
 			switch (nCorrectLevel) {
 				case QRErrorCorrectLevel.L :
 					nLimit = QRCodeLimitLength[i][0];
@@ -483,22 +483,22 @@ var QRCode;
 				case QRErrorCorrectLevel.Q :
 					nLimit = QRCodeLimitLength[i][2];
 					break;
-				case QRErrorCorrectLevel.H :
+				case QRErrorCorrectLevel.M :
 					nLimit = QRCodeLimitLength[i][3];
 					break;
 			}
-			
+
 			if (length <= nLimit) {
 				break;
 			} else {
 				nType++;
 			}
 		}
-		
+
 		if (nType > QRCodeLimitLength.length) {
 			throw new Error("Too long data");
 		}
-		
+
 		return nType;
 	}
 
@@ -506,11 +506,11 @@ var QRCode;
 		var replacedText = encodeURI(sText).toString().replace(/\%[0-9a-fA-F]{2}/g, 'a');
 		return replacedText.length + (replacedText.length != sText ? 3 : 0);
 	}
-	
+
 	/**
 	 * @class QRCode
 	 * @constructor
-	 * @example 
+	 * @example
 	 * new QRCode(document.getElementById("test"), "http://jindo.dev.naver.com/collie");
 	 *
 	 * @example
@@ -519,7 +519,7 @@ var QRCode;
 	 *    width : 128,
 	 *    height : 128
 	 * });
-	 * 
+	 *
 	 * oQRCode.clear(); // Clear the QRCode.
 	 * oQRCode.makeCode("http://map.naver.com"); // Re-create the QRCode.
 	 *
@@ -530,31 +530,31 @@ var QRCode;
 	 * @param {Number} [vOption.height=256]
 	 * @param {String} [vOption.colorDark="#000000"]
 	 * @param {String} [vOption.colorLight="#ffffff"]
-	 * @param {QRCode.CorrectLevel} [vOption.correctLevel=QRCode.CorrectLevel.H] [L|M|Q|H] 
+	 * @param {QRCode.CorrectLevel} [vOption.correctLevel=QRCode.CorrectLevel.H] [L|M|Q|H]
 	 */
 	QRCode = function (el, vOption) {
 		this._htOption = {
-			width : 256, 
+			width : 256,
 			height : 256,
 			typeNumber : 4,
 			colorDark : "#000000",
 			colorLight : "#ffffff",
-			correctLevel : QRErrorCorrectLevel.H
+			correctLevel : QRErrorCorrectLevel.M
 		};
-		
+
 		if (typeof vOption === 'string') {
 			vOption	= {
 				text : vOption
 			};
 		}
-		
+
 		// Overwrites options
 		if (vOption) {
 			for (var i in vOption) {
 				this._htOption[i] = vOption[i];
 			}
 		}
-		
+
 		if (typeof el == "string") {
 			el = document.getElementById(el);
 		}
@@ -562,20 +562,20 @@ var QRCode;
 		if (this._htOption.useSVG) {
 			Drawing = svgDrawer;
 		}
-		
+
 		this._android = _getAndroid();
 		this._el = el;
 		this._oQRCode = null;
 		this._oDrawing = new Drawing(this._el, this._htOption);
-		
+
 		if (this._htOption.text) {
-			this.makeCode(this._htOption.text);	
+			this.makeCode(this._htOption.text);
 		}
 	};
-	
+
 	/**
 	 * Make the QRCode
-	 * 
+	 *
 	 * @param {String} sText link data
 	 */
 	QRCode.prototype.makeCode = function (sText) {
@@ -583,15 +583,15 @@ var QRCode;
 		this._oQRCode.addData(sText);
 		this._oQRCode.make();
 		this._el.title = sText;
-		this._oDrawing.draw(this._oQRCode);			
+		this._oDrawing.draw(this._oQRCode);
 		this.makeImage();
 	};
-	
+
 	/**
 	 * Make the Image from Canvas element
 	 * - It occurs automatically
 	 * - Android below 3 doesn't support Data-URI spec.
-	 * 
+	 *
 	 * @private
 	 */
 	QRCode.prototype.makeImage = function () {
@@ -599,14 +599,14 @@ var QRCode;
 			this._oDrawing.makeImage();
 		}
 	};
-	
+
 	/**
 	 * Clear the QRCode
 	 */
 	QRCode.prototype.clear = function () {
 		this._oDrawing.clear();
 	};
-	
+
 	/**
 	 * @name QRCode.CorrectLevel
 	 */
